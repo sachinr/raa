@@ -32,6 +32,12 @@ h3, h4, h5, h6 {
   color:#494949;
 }
 
+h3 {
+  break-before: always;
+  -moz-column-break-before: always;
+  -webkit-column-break-before: always;
+}
+
 a {
   color:#39c;
   font-weight:400;
@@ -46,7 +52,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:500px;
   margin:0 auto;
 }
 
