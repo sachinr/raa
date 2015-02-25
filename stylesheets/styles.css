@@ -96,9 +96,11 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+  text-align: center;
+}
+
+header img {
+  width: 500px;
 }
 
 header ul {
@@ -160,8 +162,6 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
   padding-bottom:50px;
 }
 
