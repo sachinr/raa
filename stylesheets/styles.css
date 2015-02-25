@@ -164,6 +164,9 @@ header ul a strong {
 section {
   padding-top: 20px;
   padding-bottom:50px;
+  -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+  -moz-columns: 100px 2; /* Firefox */
+  columns: 100px 2;
 }
 
 small {
